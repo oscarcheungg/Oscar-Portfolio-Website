@@ -44,7 +44,6 @@ h1 {
     margin-bottom: 70px;
 }
 
-
 p {
     font-family: 'Pitchsans Regular', sans-serif;
     font-size: 20px;
@@ -69,10 +68,24 @@ nav a {
     font-size: 20px;
     font-weight: 300;
     margin: 0 15px;
+    position: relative;
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
 }
 
 #caret {
