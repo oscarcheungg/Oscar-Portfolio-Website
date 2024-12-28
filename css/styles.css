@@ -20,13 +20,10 @@
     font-style: normal;
 }
 
-main {
-    margin-top: -100px;
-}
 
 body {
     font-family: 'Superior Title', 'Times New Roman', sans-serif;
-    background: url('../images/Rectangle.png') no-repeat;
+    background: url('../images/Mesh\ Gradient\ \(1\).png') no-repeat;
     background-size: cover;
     background-position: top left;
     color: #fff;
@@ -34,8 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
-    padding: 0 80px;
+    padding: 200px 100px;
+    min-height: auto；
 }
 
 h1 {
