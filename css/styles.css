@@ -270,19 +270,10 @@ h3 {
 }
 
 #portfolio {
-	padding: 130px 20px;
+	padding: 50px 20px;
 	margin-top: -10px;
 	scroll-margin-top: 10px;
 	color: #333333;
-}
-
-.project-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	max-width: 1300px;
-	margin: 0 auto;
-	position: relative;
 }
 
 .project-link-container {
@@ -340,7 +331,43 @@ h3 {
 .project-number {
 	position: absolute;
 	left: 58%;
-	bottom: 110px;
+	bottom: 120px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.vertical-line2 {
+	height: 120px;
+	width: 1.5px;
+	background-color: #333333;
+	position: absolute;
+	left: 55%;
+	bottom: 140px;
+}
+
+.project-number2 {
+	position: absolute;
+	left: 58%;
+	bottom: 150px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.vertical-line3 {
+	height: 120px;
+	width: 1.5px;
+	background-color: #333333;
+	position: absolute;
+	left: 55%;
+	bottom: 160px;
+}
+
+.project-number3 {
+	position: absolute;
+	left: 58%;
+	bottom: 170px;
 	font-size: 20px;
 	font-weight: 500;
 	color: #333333;
