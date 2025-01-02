@@ -20,10 +20,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
-        target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+        const offset = -100;  
+        const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+            top: targetPosition - offset,
+            behavior: 'smooth'
         });
     });
 });
-
