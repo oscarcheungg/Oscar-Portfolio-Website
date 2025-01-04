@@ -29,6 +29,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	padding: 150px 120px;
+	padding-bottom: 0px;
 	min-height: auto;
 }
 

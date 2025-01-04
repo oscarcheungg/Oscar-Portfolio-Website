@@ -31,6 +31,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	padding: 200px 120px;
+	padding-bottom: 0px;
 	min-height: auto;
 }
 
