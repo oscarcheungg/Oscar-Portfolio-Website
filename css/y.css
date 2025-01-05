@@ -404,7 +404,7 @@ hr {
         width: 100%;
         margin-right: 0;
         margin-bottom: 40px;
-        margin-top: 100px;  /* Adjust if necessary to shift the text slightly lower */
+        margin-top: 100px; 
     }
 
     .figma-container {
@@ -413,7 +413,7 @@ hr {
     }
 
     .image-side img {
-        width: 70%;  /* Slightly smaller images on phone screens */
+        width: 70%; 
     }
 
     .info-grid {
@@ -433,7 +433,7 @@ hr {
     }
 
     .screenshot {
-        width: 90%;  /* Full-width screenshots for better viewing on small screens */
+        width: 90%;  
     }
 
     .screenshot img {
