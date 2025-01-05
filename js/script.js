@@ -36,3 +36,14 @@ const navLinks = document.querySelector('.nav-links');
 navToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
+
+document.querySelector("form").onsubmit = function(e) {
+    let name = document.querySelector('input[name="name"]').value;
+    let email = document.querySelector('input[name="email"]').value;
+    let message = document.querySelector('textarea[name="message"]').value;
+
+    if (name === "" || email === "" || message === "") {
+        alert("All fields are required!");
+        e.preventDefault();
+    }
+};
