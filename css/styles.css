@@ -423,7 +423,7 @@ h3 {
 }
 
 .contact-info h2 {
-	font-size: 40px;
+	font-size: 50px;
 	color: #333333;
 	margin-bottom: 30px;
 }
@@ -450,6 +450,7 @@ h3 {
 	flex: 1;
 	background-color: #fff;
 	padding: 40px;
+	padding-bottom: 0px;
 }
 
 .contact-form h2 {
@@ -479,17 +480,18 @@ h3 {
 	padding: 15px;
 	font-size: 20px;
 	color: #fff;
-	background: linear-gradient(to right, #377AE6, #2E86BE);
+	background: linear-gradient(to right, #377AE6, #40639C 50%, #40639C 100%);
+	background-size: 200% 100%;
+	background-position: left;
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
-	transition: background-color 0.3s ease;
+	transition: background-position 0.6s ease;
 }
 
 .contact-form button:hover {
-	background: linear-gradient(to right, #377AE6, #40639C);
+	background-position: right;
 }
-
 
 .footer {
 	text-align: right;
