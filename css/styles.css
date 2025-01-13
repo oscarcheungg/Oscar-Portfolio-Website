@@ -179,7 +179,7 @@ nav a:hover::after {
 }
 
 .club-card {
-	width: 300px;
+	width: 275px;
 	padding: 20px;
 	border-radius: 20px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
