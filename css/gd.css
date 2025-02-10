@@ -21,7 +21,7 @@
 }
 
 body {
-	font-family: 'Superior Title', 'Times New Roman', sans-serif;
+	font-family: 'SF Pro Display', sans-serif;
 	background: url('../images/Mesh\ Gradient.png') no-repeat;
 	color: #333333;
 	line-height: 1.6;
@@ -40,7 +40,6 @@ nav {
 }
 
 nav a {
-	font-family: 'Pitchsans Regular', sans-serif;
 	text-decoration: none;
 	color: #333333;
 	font-size: 20px;
@@ -66,14 +65,13 @@ nav a:hover::after {
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 40px;
 	font-weight: 700;
 	margin-bottom: 30px;
 	color: #333333;
 }
 
 p {
-	font-family: 'Pitchsans Regular', sans-serif;
 	font-size: 25px;
 	font-weight: 300;
 	line-height: 1.6;
@@ -83,8 +81,8 @@ p {
 }
 
 h2 {
-	font-size: 60px;
-	font-weight: 600;
+	font-size: 40px;
+	font-weight: 700;
 	margin-bottom: 30px;
 }
 
@@ -122,12 +120,11 @@ h4 {
 }
 
 .text-side h1 {
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 700;
 }
 
 .text-side .subtext {
-	font-family: 'Pitchsans Regular', sans-serif;
 	font-size: 20px;
 	color: #333333;
 }
@@ -170,14 +167,13 @@ h4 {
 }
 
 #project-overview h2 {
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 700;
 	margin-bottom: 40px;
 }
 
 #project-overview p,
 #project-overview ul {
-	font-family: 'Pitchsans Regular', sans-serif;
 	font-size: 22px;
 	color: #333333;
 	line-height: 1.8;
@@ -256,7 +252,6 @@ hr {
 
 .screenshot p {
 	margin-top: 15px;
-	font-family: 'Pitchsans Regular', sans-serif;
 	font-size: 18px;
 	color: #333333;
 }

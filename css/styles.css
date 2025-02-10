@@ -21,8 +21,7 @@
 }
 
 body {
-	font-family: 'Superior Title', 'Times New Roman', sans-serif;
-	background: url('../images/Mesh\ Gradient\ \(7\).png') no-repeat;
+	font-family: 'SF Pro Display', sans-serif;
 	background-size: cover;
 	background-position: top left;
 	color: #333333;
@@ -30,20 +29,32 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 200px 120px;
+	padding: 200px 100px;
 	padding-bottom: 0px;
 	min-height: auto;
 }
 
 h1 {
-	font-size: 75px;
-	font-weight: 570;
+	font-size: 65px;
+	font-weight: 400;
 	margin-bottom: 70px;
 	color: #333333;
 }
 
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	color: #333333;
+}
+
 p {
-	font-family: 'Pitchsans Regular', sans-serif;
 	font-size: 25px;
 	font-weight: 300;
 	line-height: 24px;
@@ -60,7 +71,6 @@ nav {
 }
 
 nav a {
-	font-family: 'Pitchsans Regular', sans-serif;
 	text-decoration: none;
 	color: #333333;
 	font-size: 20px;
@@ -99,16 +109,21 @@ nav a:hover::after {
 	}
 }
 
+#home {
+	padding-bottom: 80px;
+}
+
 .section-divider {
 	border: none;
 	height: 2px;
-	background-color: #333333;
-	width: 80%;
+	background-color: #e0e0e0;
+	width: 100%;
 	margin: 0 auto 60px;
+	margin-top: 10px;
 }
 
 #about {
-	padding: 130px 20px;
+	padding: 40px 20px;
 	margin-top: 250px;
 	scroll-margin-top: 10px;
 	color: #333333;
@@ -127,7 +142,8 @@ nav a:hover::after {
 }
 
 .about-text h2 {
-	font-size: 50px;
+	font-size: 40px;
+	font-weight: 400;
 }
 
 .about-text p {
@@ -136,7 +152,7 @@ nav a:hover::after {
 
 .headshot-container {
 	width: 30%;
-	border: 3px solid #333333;
+	border: 2px solid #333333;
 	border-radius: 20px;
 	overflow: hidden;
 	margin-left: 50px;
@@ -153,123 +169,6 @@ nav a:hover::after {
 	margin-top: 40px;
 }
 
-.skills,
-.experience {
-	width: 48%;
-}
-
-.skills p {
-	font-size: 20px;
-}
-
-.experience p {
-	font-size: 20px;
-}
-
-#club-involvement {
-	text-align: left;
-	padding: 20px 0;
-}
-
-.club-container {
-	display: flex;
-	justify-content: center;
-	gap: 30px;
-	flex-wrap: wrap;
-}
-
-.club-card {
-	width: 275px;
-	padding: 20px;
-	border-radius: 20px;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-	text-decoration: none;
-	background-color: #fff;
-	text-align: center;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.club-card:hover {
-	transform: translateY(-10px);
-	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-.club-card img {
-	width: 100px;
-	margin-bottom: 10px;
-}
-
-.club-card h3 {
-	font-size: 22px;
-	color: #333333;
-	margin-bottom: 10px;
-}
-
-.club-role {
-	font-weight: 400;
-	font-style: italic;
-	text-align: center;
-}
-
-.club-card p {
-	font-size: 16px;
-	color: #333333;
-	line-height: 1.5;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 0;
-}
-
-
-.about-bottom {
-	margin-top: 20px;
-	font-size: 25px;
-	text-align: center;
-	color: #333333;
-	margin-bottom: -150px;
-}
-
-.about-bottom a {
-	color: #333333;
-	text-decoration: none;
-}
-
-.underline-link {
-	position: relative;
-	text-decoration: none;
-	color: #333333;
-}
-
-.underline-link::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: -5px;
-	width: 100%;
-	height: 2px;
-	background-color: #333333;
-	transform: scaleX(0);
-	transform-origin: center;
-	transition: transform 0.3s ease-in-out;
-}
-
-.underline-link:hover::after {
-	transform: scaleX(1);
-}
-
-
-h2 {
-	font-size: 60px;
-	font-weight: 600;
-	margin-bottom: 30px;
-}
-
-h3 {
-	font-size: 28px;
-	margin-bottom: 15px;
-	color: #333333;
-}
-
 #portfolio {
 	padding: 50px 20px;
 	margin-top: -10px;
@@ -278,8 +177,9 @@ h3 {
 }
 
 #portfolio h2 {
-	font-size: 50px;
+	font-size: 40px;
 	text-align: left;
+	font-weight: 400;
 }
 
 .project-link-container {
@@ -315,7 +215,7 @@ h3 {
 }
 
 .project-text h2 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
@@ -418,12 +318,12 @@ h3 {
 	flex: 1;
 	color: #fff;
 	background-color: #fff;
-	padding: 20px;
 	border-radius: 15px;
 }
 
 .contact-info h2 {
-	font-size: 50px;
+	font-size: 40px;
+	font-weight: 400;
 	color: #333333;
 	margin-bottom: 30px;
 }
@@ -499,18 +399,21 @@ h3 {
 	position: relative;
 }
 
-.divider {
+.section-divider {
 	border: none;
-	border-top: 1px solid #333333;
+	height: 2px;
+	background-color: #e0e0e0;
 	width: 100%;
-	margin-bottom: 30px;
+	margin: 0 auto 60px;
+	margin-top: 10px;
 }
 
 .footer-content h2 {
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 1.2;
-	font-weight: 700;
+	font-weight: 400;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .footer-links {
@@ -520,9 +423,8 @@ h3 {
 }
 
 .footer-links a {
-	font-family: 'Courier New', monospace;
 	font-size: 18px;
-	color: #333333;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -531,7 +433,6 @@ h3 {
 }
 
 .copyright p {
-	font-family: 'Courier New', monospace;
 	font-size: 12px;
 	color: #333333;
 	text-decoration: none;
